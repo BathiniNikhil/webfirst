@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<catalog  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="books.xsd">
+
+			<book course="cse">
+				  <title>WebTechnologies</title>
+				  <author>Ramesh</author>
+				  <publisher>DreamTech</publisher>
+				  <pages>1200</pages>
+				  <price>2552.75</price>
+		   </book>
+				  <book course="cse">
+				  <title>Operating System</title>
+				  <author>Galvin</author>
+				  <publisher>Tmch</publisher>
+				  <pages>1223</pages>
+				  <price>850.50</price>
+		   </book>
+		   <book course="ece">
+				  <title>ELECTRICAL CIRCUITS</title>
+				  <author>GANESH</author>
+				  <publisher>YOUTUBE Tech</publisher>
+				  <pages>adcsf</pages>
+				  <price>5152.75</price>
+		   </book>
+		   <book course="eee">
+				  <title>ELETRICAL MOTARS</title>
+				  <author>mALLESH</author>
+				  <publisher>GTech</publisher>
+				  <pages>1226</pages>
+				  <price>552.75</price>
+		   </book>
+		   </catalog>

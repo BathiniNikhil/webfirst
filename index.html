@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="flex.css">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+   
+  
+  <style>
+   
+   
+
+.mySlides {display:none;}
+
+body{
+overflow-x:hidden;
+
+}
+footer {
+  text-align: center;
+  padding: 8px;
+  background-color:black;
+  color: white;
+}
+.fa {
+ padding: 20px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+   
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+</style>
+   
+    
+  </head>
+  <body >
+  <nav>
+ 
+      <div class="logo">CARS.COM</div>
+	  
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="carregistration.html">REGISTER</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="carpage.html">About us</a></li>
+        <li><a href="star.html">Feedback</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div></div>
+      <div></div>
+    </div>
+  <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="s1.jpg" style="width:310%">
+  <img class="mySlides" src="s2.jpg" style="width:310%">
+  <img class="mySlides" src="s3.jpg" style="width:310%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+  <footer>
+  <hr color="white" width="105%">
+  <a href="https://www.facebook.com/bmwindia/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/BMW?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+<a href="https://www.bmw.com/en/index.html" class="fa fa-google"></a>
+  
+  <a href="https://www.instagram.com/bmw/?hl=en" class="fa fa-instagram"></a>
+  <a href="https://www.youtube.com/watch?v=6Viyt2aIOG8"  target="_new" class="fa fa-youtube"></a>
+  <br>
+  <a href="#"  style="text-decoration:none;color:white" >Terms</a>&nbsp;&nbsp;
+  <a href="#" style="text-decoration:none;color:white" >Condition</a>&nbsp;&nbsp;
+  <a href="#" style="text-decoration:none;color:white" >Policy</a>&nbsp;&nbsp;
+</footer>
+    
+
+  </body>
+</html>
